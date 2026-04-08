@@ -120,7 +120,7 @@ REPO="https://github.com/xiexie-qiuligao/counselor.skill.git"; TARGET="$HOME/.op
 在 Claude Code / Codex / OpenClaw 里调用：
 
 ```text
-Use $office-call-skill
+Use $create-counselor
 ```
 
 然后按流程做这几步：
@@ -220,7 +220,7 @@ counselor.skill/
 │   ├── system-modes.md
 │   ├── system-lifecycle.md
 │   ├── distillation-authenticity-protocol.md
-│   ├── cross-mode-consistency-rules.md
+│   ├── distillation-source-matrix.md
 │   └── ...
 ├── tools/
 │   ├── chat_parser.py

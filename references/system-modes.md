@@ -112,10 +112,7 @@
 - 共情边界要一致
 - 收口方式要一致
 
-详细规则见：
-
-- [cross-mode-consistency-rules.md](./cross-mode-consistency-rules.md)
-- [../prompts/cross_mode_consistency_guard.md](../prompts/cross_mode_consistency_guard.md)
+详细规则由当前系统人格、蒸馏结果和 correction 一起约束。
 
 ## 最终目标
 

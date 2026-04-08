@@ -44,7 +44,6 @@
 - `prompts/custom_intake.md`
 - `prompts/persona_builder.md`
 - `prompts/preview_runner.md`
-- `references/counselor-archetypes.md`
 
 ### 调整系统
 
@@ -63,21 +62,16 @@
 
 - `references/start-here.md`
 - `references/system-modes.md`
-- `references/rehearsal-playbooks.md`
 - 如果已有系统，再读该系统的 `persona.md` 和最近 1 到 2 份 session
 
 ### 深场景推演
 
 - `references/case-schema.md`
-- `references/scene-library.md`
 - `references/scene-playbooks.md`
 - `prompts/scene_engine.md`
-- `prompts/case_state_manager.md`
-- `prompts/outcome_judge.md`
 
 ### 真实对话复盘
 
-- `prompts/debrief.md`
 - 如果已有系统，再读最近 session 和 correction
 
 ## 4. 先解决用户眼前最急的动作
