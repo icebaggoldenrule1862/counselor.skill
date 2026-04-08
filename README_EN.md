@@ -7,16 +7,18 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-brightgreen)](https://agentskills.io)
 
-**College students have suffered enough under counselor chat windows.**  
-This project distills a real counselor from notices, private chats, office talks, comments, and policy language into an evolving AI Skill.  
-It should not only sound like them, but also pressure like them, delay like them, and close the conversation the way they would.
+For many students, the scary part is not sending the message.  
+It is what comes back after it:
+
+> “Come to my office.”
+
+This project tries to distill a counselor from notices, private chats, office talks, comments, and policy language into something you can actually rehearse with.  
+Not only how they speak, but how they pressure, delay, redirect, and close a conversation.
 
 This is not a leave-request template pack.  
-This is not just roleplay.
+And it is not just roleplay.
 
-It aims to be:
-
-**a single high-fidelity counselor interaction system for real student communication dilemmas.**
+It is closer to a counselor system for rehearsing real student communication.
 
 [中文](./README.md) · [Install](#install) · [Usage](#usage) · [Examples](#examples) · [Features](#features) · [Structure](#project-structure) · [Credits](#credits--inspirations)
 
