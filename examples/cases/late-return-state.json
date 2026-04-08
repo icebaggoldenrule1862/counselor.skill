@@ -1,0 +1,53 @@
+{
+  "case_id": "example-late-return-001",
+  "scene_type": "late-return",
+  "scene_label": "夜不归宿",
+  "created_at": "2026-04-07T23:10:00",
+  "updated_at": "2026-04-07T23:10:00",
+  "stage": "opening",
+  "status": "active",
+  "persona_slug": "quiet-pressure",
+  "student_profile": {
+    "display_name": "未命名学生",
+    "history_flags": [],
+    "recent_record": [
+      "昨晚未按时返宿"
+    ]
+  },
+  "scores": {
+    "impression_score": 0,
+    "trust_level": -1,
+    "evidence_level": 3,
+    "risk_level": 3
+  },
+  "attitude": {
+    "current_read": "minimizing",
+    "history": [
+      "用手机没电解释未报备"
+    ]
+  },
+  "known_info": [
+    "宿管已经登记未归"
+  ],
+  "hidden_evidence": [
+    "宿舍长昨晚联系不上人",
+    "辅导员已知道这是安全边界问题"
+  ],
+  "redlines": [
+    "安全问题轻描淡写",
+    "多次未报备"
+  ],
+  "branch_notes": [
+    "若学生快速承认并补说明，可压到书面说明",
+    "若继续轻飘，容易触发正式约谈甚至家长联动"
+  ],
+  "result": {
+    "tier": null,
+    "label": null,
+    "reasons": []
+  },
+  "next_actions": [
+    "确认具体去向和时间线",
+    "判断是否需要家长联动预警"
+  ]
+}

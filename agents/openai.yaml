@@ -1,0 +1,7 @@
+interface:
+  display_name: "你来办公室一趟"
+  short_description: "生成并进化你的专属辅导员交互系统"
+  default_prompt: "Use $office-call-skill to build, route, remember, and evolve a personal counselor interaction system around the user's current campus communication dilemma."
+
+policy:
+  allow_implicit_invocation: false

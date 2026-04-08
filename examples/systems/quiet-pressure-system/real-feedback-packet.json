@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-04-08T21:40:00",
+  "mode": "follow-up",
+  "topic": "临时请假后的真实追问",
+  "system_previous_output": {
+    "opening_message": "老师，我想先跟您说一下，明天上午那节课我这边有个临时情况，可能需要请假处理。我知道这种事不适合临时说，所以先提前跟您报备一下，具体情况我可以马上补充说明。",
+    "predicted_follow_up": [
+      "具体说",
+      "为什么现在才说",
+      "任课老师知不知道"
+    ]
+  },
+  "real_counselor_reply": "具体说，为什么现在才讲？任课老师那边你自己沟通过没有，别等老师找到我这里你再来补。",
+  "observed_signals": {
+    "time_line_pressure": "high",
+    "teacher_contact_check_timing": "first-round",
+    "tone": "short-pressure",
+    "family_link": "not-mentioned",
+    "document_path": "not-yet-triggered"
+  },
+  "routing_summary": {
+    "needs_correction": true,
+    "needs_session": true,
+    "needs_archive": true
+  }
+}

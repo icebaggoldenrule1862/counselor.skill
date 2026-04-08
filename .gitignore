@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+generated/cases/*
+!generated/cases/.gitkeep
+generated/counselors/*
+!generated/counselors/.gitkeep
+generated/imports/*
+!generated/imports/.gitkeep
+
+research/

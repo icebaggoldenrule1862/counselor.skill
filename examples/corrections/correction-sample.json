@@ -1,0 +1,14 @@
+{
+  "summary": "周老师不会一开场就把话说死，更倾向先听解释，再逐步亮出老师和班长反馈，家长联动只会在后段出现。",
+  "changes": {
+    "pressure_style": {
+      "first_round_style": "listen-first",
+      "evidence_reveal": "progressive",
+      "family_contact_timing": "late"
+    },
+    "coordination_style": {
+      "teacher_feedback": "early",
+      "class_monitor_feedback": "mid"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_type": "annotation",
+  "behavior_signals": {
+    "document_strictness": "high",
+    "material_focus": [
+      "补材料",
+      "重新提交"
+    ]
+  },
+  "rule_signals": {
+    "approval_markers": {
+      "重写": 1,
+      "补材料": 1,
+      "不完整": 1,
+      "重新提交": 1,
+      "不予通过": 1
+    }
+  },
+  "tone_guess": "document-review",
+  "sample_lines": [
+    "时间线不完整，重写。",
+    "先补材料，再重新提交。",
+    "任课老师是否知情请先说明。",
+    "本次不予通过，后续按流程处理。"
+  ]
+}

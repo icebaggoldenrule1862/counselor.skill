@@ -1,0 +1,46 @@
+{
+  "student_profile": {
+    "current_focus": [
+      "缺课后的办公室约谈"
+    ],
+    "background_notes": [
+      "在高压场景下容易把解释顺序说乱"
+    ]
+  },
+  "communication_profile": {
+    "common_failure_points": [
+      "在办公室压力下容易抢着解释"
+    ],
+    "effective_moves": [
+      "先承认沟通来得晚",
+      "先接住老师反馈再解释"
+    ]
+  },
+  "relationship_state": {
+    "latest_read": "愿意解释，但压力下容易把事实说乱"
+  },
+  "risk_ledger": {
+    "active_flags": [
+      "考勤印象偏弱"
+    ],
+    "escalation_watchpoints": [
+      "如果再出现一次时间线混乱的缺课解释，可能进入更正式记录"
+    ]
+  },
+  "active_threads": [
+    {
+      "topic": "缺课后的办公室约谈",
+      "status": "ongoing",
+      "last_mode": "office-talk",
+      "last_updated": "2026-04-08T20:15:00",
+      "next_risk": "是否需要补情况说明以及后续印象修复"
+    }
+  ],
+  "longitudinal_notes": [
+    "用户在前两轮中暴露出的核心问题不是态度，而是解释顺序。"
+  ],
+  "recommended_next_modes": [
+    "debrief",
+    "statement-writing"
+  ]
+}

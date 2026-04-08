@@ -1,0 +1,39 @@
+{
+  "source_bundle": "examples/distillation/multi-source-bundle.json",
+  "system_effects": {
+    "speech_style": [
+      "公开文本保持 formal-pressure",
+      "私下追问更像 progressive-pressure"
+    ],
+    "pressure_style": [
+      "第一轮更偏 listen-first",
+      "证据按任课老师 -> 班长 -> 家长可能性的顺序推进"
+    ],
+    "statement_style": [
+      "说明文和审批反馈更强调时间线完整",
+      "材料不完整时会要求补材料或重写"
+    ],
+    "rule_universe": [
+      "规则层硬度偏高",
+      "升级路径包含书面说明、约谈、上报"
+    ]
+  },
+  "conflict_handling": {
+    "public_vs_private": "公开通知更硬，私聊和约谈更倾向先听解释再收口",
+    "manual_profile_priority": "用户手打印象优先保留为核心行为约束"
+  },
+  "real_world_sync": {
+    "best_for": [
+      "请假前第一条消息演练",
+      "被追问后的下一句应对",
+      "办公室约谈前预演",
+      "说明文结构起草"
+    ],
+    "why": "蒸馏后已经同时具备公开语气、私下追问、规则路径和说明文标准四层信号"
+  },
+  "recommended_updates": [
+    "强化 office-talk 中的 teacher-first evidence queue",
+    "强化 statement-writing 中的 timeline completeness check",
+    "保留 family-link-late 作为稳定约束"
+  ]
+}

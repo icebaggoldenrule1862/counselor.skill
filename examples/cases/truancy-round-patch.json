@@ -1,0 +1,17 @@
+{
+  "stage": "pressure",
+  "scores": {
+    "trust_level": -1,
+    "evidence_level": 4,
+    "risk_level": 3
+  },
+  "attitude": {
+    "current_read": "deflecting",
+    "history": [
+      "学生先用特殊情况解释缺席"
+    ]
+  },
+  "branch_notes": [
+    "辅导员亮出任课老师反馈与考勤截图"
+  ]
+}

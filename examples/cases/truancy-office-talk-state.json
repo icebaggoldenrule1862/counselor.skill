@@ -1,0 +1,56 @@
+{
+  "case_id": "example-truancy-001",
+  "scene_type": "truancy",
+  "scene_label": "逃课被抓",
+  "created_at": "2026-04-07T23:10:00",
+  "updated_at": "2026-04-07T23:10:00",
+  "stage": "probing",
+  "status": "active",
+  "persona_slug": "quiet-pressure",
+  "student_profile": {
+    "display_name": "未命名学生",
+    "history_flags": [
+      "attendance-risk"
+    ],
+    "recent_record": [
+      "两周内两次缺席"
+    ]
+  },
+  "scores": {
+    "impression_score": -1,
+    "trust_level": 0,
+    "evidence_level": 3,
+    "risk_level": 2
+  },
+  "attitude": {
+    "current_read": "deflecting",
+    "history": [
+      "先说自己有特殊情况"
+    ]
+  },
+  "known_info": [
+    "任课老师已经反馈缺席",
+    "学生知道自己被叫来是因为课堂问题"
+  ],
+  "hidden_evidence": [
+    "班长确认不是第一次",
+    "老师已发送考勤截图"
+  ],
+  "redlines": [
+    "重复旷课",
+    "继续模糊甩锅"
+  ],
+  "branch_notes": [
+    "如果学生承认问题，可收口到情况说明",
+    "如果继续嘴硬，升级到正式约谈"
+  ],
+  "result": {
+    "tier": null,
+    "label": null,
+    "reasons": []
+  },
+  "next_actions": [
+    "确认是否承认重复缺席",
+    "决定是否亮出班长反馈"
+  ]
+}

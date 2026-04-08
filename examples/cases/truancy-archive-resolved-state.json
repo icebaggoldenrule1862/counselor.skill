@@ -1,0 +1,122 @@
+{
+  "case_id": "example-truancy-archive-001",
+  "scene_type": "truancy",
+  "scene_label": "逃课被抓",
+  "created_at": "2026-04-08T20:20:00",
+  "updated_at": "2026-04-08T21:05:00",
+  "stage": "closure",
+  "status": "resolved",
+  "persona_slug": "quiet-pressure-system",
+  "student_profile": {
+    "display_name": "未命名学生",
+    "history_flags": [
+      "attendance-risk"
+    ],
+    "recent_record": [
+      "最近一次办公室预演暴露出解释顺序混乱"
+    ]
+  },
+  "archive_context": {
+    "current_focus": [
+      "缺课后的办公室约谈"
+    ],
+    "active_flags": [
+      "考勤印象偏弱",
+      "临时沟通容易被解读为准备不足"
+    ],
+    "active_threads": [
+      "缺课后的办公室约谈"
+    ],
+    "counselor_impression": "cautious-but-listening",
+    "trust_trend": "fragile-but-recoverable",
+    "pressure_pattern": [
+      "第一轮先听解释",
+      "任课老师反馈优先出现",
+      "班长反馈作为补强",
+      "家长联动靠后"
+    ],
+    "carry_over_notes": [
+      "用户并不嘴硬，但在高压场景下容易把时间线说乱"
+    ]
+  },
+  "scores": {
+    "impression_score": -1,
+    "trust_level": 1,
+    "evidence_level": 3,
+    "risk_level": 3
+  },
+  "attitude": {
+    "current_read": "accepting-but-shaky",
+    "history": [
+      "用户一开场就想抢着解释",
+      "后段承认沟通顺序和缺课处理都不规范"
+    ]
+  },
+  "evidence_queue": [
+    {
+      "label": "任课老师确认该节课缺席",
+      "source": "任课老师",
+      "reveal_stage": "probing",
+      "impact": "medium",
+      "revealed": true
+    },
+    {
+      "label": "班长反馈这不是第一次临时沟通失控",
+      "source": "班长",
+      "reveal_stage": "pressure",
+      "impact": "medium",
+      "revealed": true
+    },
+    {
+      "label": "若再次解释失控可能进入正式记录",
+      "source": "长期档案 watchpoint",
+      "reveal_stage": "closure",
+      "impact": "high",
+      "revealed": true
+    }
+  ],
+  "escalation": {
+    "current_level": "formal-watch",
+    "likely_next_steps": [
+      "补交情况说明",
+      "后续考勤继续观察"
+    ],
+    "triggers_met": [
+      "active-thread-overlap",
+      "attendance-risk-repeat"
+    ],
+    "trigger_log": [
+      "长期档案中已存在缺课后的办公室约谈主题，导致本局起始风险抬高",
+      "班长反馈被亮出后，正式记录风险被明说"
+    ]
+  },
+  "known_info": [
+    "任课老师已经反馈缺席",
+    "学生知道自己被叫来是因为课堂问题"
+  ],
+  "hidden_evidence": [
+    "班长确认这不是第一次沟通失控",
+    "长期档案里已有考勤风险 watchpoint"
+  ],
+  "redlines": [
+    "重复旷课",
+    "继续嘴硬甩锅",
+    "再次触发长期档案中的升级观察点"
+  ],
+  "branch_notes": [
+    "学生最终接住了台阶，场景收口到情况说明和后续观察"
+  ],
+  "result": {
+    "tier": 3,
+    "label": "写情况说明",
+    "reasons": [
+      "缺课事实已基本坐实，需要留下书面记录",
+      "学生后段愿意配合补说明，暂未直接升级到正式处理",
+      "长期档案中的考勤风险仍未解除，需要继续观察"
+    ]
+  },
+  "next_actions": [
+    "补交情况说明",
+    "下次若再触发考勤问题，正式记录风险会显著上升"
+  ]
+}

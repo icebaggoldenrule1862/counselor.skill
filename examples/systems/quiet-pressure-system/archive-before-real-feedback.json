@@ -1,0 +1,80 @@
+{
+  "student_profile": {
+    "display_name": "未命名学生",
+    "grade": "大二",
+    "department": "计算机学院",
+    "current_focus": [
+      "临时请假沟通",
+      "缺课后的办公室约谈"
+    ],
+    "background_notes": [
+      "表达偏谨慎",
+      "在高压场景下容易把解释顺序说乱"
+    ]
+  },
+  "communication_profile": {
+    "preferred_style": [
+      "稳妥开口",
+      "先讲时间和影响，再讲原因"
+    ],
+    "common_failure_points": [
+      "容易把理由说空",
+      "在办公室压力下容易抢着解释"
+    ],
+    "stable_strengths": [
+      "并不嘴硬",
+      "愿意主动补材料和配合流程"
+    ],
+    "effective_moves": [
+      "先承认沟通来得晚",
+      "主动补时间线",
+      "先接住老师反馈再解释"
+    ]
+  },
+  "relationship_state": {
+    "counselor_impression": "cautious-but-listening",
+    "trust_trend": "fragile-but-recoverable",
+    "latest_read": "愿意解释，但压力下容易把事实说乱",
+    "pressure_pattern": [
+      "第一轮先听解释",
+      "任课老师反馈优先出现",
+      "班长反馈作为补强",
+      "家长联动靠后"
+    ]
+  },
+  "risk_ledger": {
+    "active_flags": [
+      "考勤印象偏弱",
+      "临时沟通容易被解读为准备不足"
+    ],
+    "historical_flags": [
+      "请假沟通起手困难"
+    ],
+    "escalation_watchpoints": [
+      "如果再出现一次时间线混乱的缺课解释，可能进入更正式记录",
+      "如果临时沟通继续失控，办公室压力会明显上升"
+    ],
+    "protected_areas": [
+      "态度并未表现出明显顶撞",
+      "愿意配合补材料"
+    ]
+  },
+  "active_threads": [
+    {
+      "topic": "缺课后的办公室约谈",
+      "status": "ongoing",
+      "last_mode": "office-talk",
+      "last_updated": "2026-04-08T20:15:00",
+      "next_risk": "是否需要补情况说明以及后续印象修复"
+    }
+  ],
+  "longitudinal_notes": [
+    "用户在前两轮中暴露出的核心问题不是态度，而是解释顺序。",
+    "周老师系统在 correction 后已经呈现出更像“先听解释、再慢慢收口”的风格。"
+  ],
+  "recommended_next_modes": [
+    "debrief",
+    "statement-writing"
+  ],
+  "updated_at": "2026-04-08T20:18:00"
+}

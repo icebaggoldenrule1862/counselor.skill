@@ -1,0 +1,120 @@
+{
+  "system_name": "周老师系统",
+  "slug": "quiet-pressure-system",
+  "version": "0.4.0",
+  "archetype": "温和拿捏型",
+  "mode_focus": [
+    "opening",
+    "follow-up",
+    "office-talk",
+    "repair",
+    "debrief"
+  ],
+  "memory_enabled": true,
+  "created_at": "2026-04-07T23:35:00",
+  "updated_at": "2026-04-08T21:50:00",
+  "counts": {
+    "sessions": 4,
+    "corrections": 2
+  },
+  "modes_seen": [
+    "opening",
+    "follow-up",
+    "office-talk"
+  ],
+  "archive_summary": {
+    "current_focus": [
+      "临时请假沟通",
+      "缺课后的办公室约谈",
+      "任课老师前置沟通"
+    ],
+    "active_flags": [
+      "考勤印象偏弱",
+      "临时沟通容易被解读为准备不足",
+      "任课老师前置沟通缺失会放大不信任"
+    ],
+    "active_threads": [
+      "缺课后的办公室约谈",
+      "临时请假的前置沟通"
+    ],
+    "recommended_next_modes": [
+      "follow-up",
+      "statement-writing",
+      "debrief"
+    ]
+  },
+  "correction_summary": {
+    "summary": "周老师在临时请假或缺勤类 follow-up 里，会比之前预估更早检查任课老师是否已经先沟通过。她第一轮不仅卡时间线，也卡前置沟通动作，不喜欢学生等老师反馈上来之后再补报。",
+    "stable_constraints": [
+      "临时请假类 follow-up 默认先检查任课老师前置沟通",
+      "不要把 teacher-contact check 放到第二轮之后",
+      "遇到“老师已经找到我这里”的表达时，优先判断为被动补报风险"
+    ],
+    "change_keys": [
+      "pressure_style",
+      "coordination_style"
+    ]
+  },
+  "distillation_summary": {
+    "system_effect_keys": [
+      "speech_style",
+      "pressure_style",
+      "statement_style",
+      "rule_universe"
+    ],
+    "recommended_updates": [
+      "强化 office-talk 中的 teacher-first evidence queue",
+      "强化 statement-writing 中的 timeline completeness check",
+      "保留 family-link-late 作为稳定约束"
+    ]
+  },
+  "authenticity_summary": {
+    "score": 100,
+    "band": "high",
+    "ready_modes": [
+      "opening",
+      "follow_up",
+      "office_talk",
+      "statement_writing"
+    ],
+    "summary": "这套蒸馏已经足够支持真实排练，并能给出可同步到现实的结果。"
+  },
+  "latest": {
+    "sessions": [
+      "20260407_234600_follow-up.md",
+      "20260408_201500_office-talk.md",
+      "20260408_214200_real-reply-follow-up.md"
+    ],
+    "corrections": [
+      "20260407_234800_correction.json",
+      "20260408_214500_real-reply-correction.json"
+    ],
+    "session_meta": [
+      {
+        "file": "20260407_234600_follow-up.md",
+        "date": "2026-04-07 23:46",
+        "mode": "follow-up",
+        "next_step": "下次可以进入 correction 后的办公室推演，验证新版周老师系统是否更贴近用户印象。"
+      },
+      {
+        "file": "20260408_201500_office-talk.md",
+        "date": "2026-04-08 20:15",
+        "mode": "office-talk",
+        "next_step": "下次可以把这次办公室预演和真实聊天记录结合，进入“真实对话复盘 + 说明文工坊”的连续模式。"
+      },
+      {
+        "file": "20260408_214200_real-reply-follow-up.md",
+        "date": "2026-04-08 21:42",
+        "mode": "follow-up",
+        "next_step": "下次可以直接进入“现实追问后的下一句应对 + 说明文结构补充”的连续模式，验证修正后的 follow-up 是否更贴近真实导员回复。"
+      }
+    ],
+    "latest_correction_summary": "周老师在临时请假或缺勤类 follow-up 里，会比之前预估更早检查任课老师是否已经先沟通过。她第一轮不仅卡时间线，也卡前置沟通动作，不喜欢学生等老师反馈上来之后再补报。"
+  },
+  "notes": [
+    "适合需要先稳住态度、再逐步解释事实的沟通场景",
+    "不适合一上来就做极端强压式人格",
+    "已经验证 correction 会影响后续办公室推演方式",
+    "已经验证真实反馈回流会继续改写 follow-up 和 archive"
+  ]
+}

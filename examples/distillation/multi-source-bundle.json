@@ -1,0 +1,122 @@
+{
+  "source_count": 6,
+  "source_types": [
+    "notice",
+    "chat",
+    "policy",
+    "meeting",
+    "manual-profile",
+    "annotation"
+  ],
+  "tone_profile": {
+    "formal-pressure": 1,
+    "progressive-pressure": 1,
+    "rule-heavy": 1,
+    "meeting-pressure": 1,
+    "manual-impression": 1,
+    "document-review": 1
+  },
+  "behavior_signals": [
+    {
+      "source_type": "notice",
+      "signals": {
+        "command_heaviness": "high",
+        "public_tone": "formal-pressure"
+      }
+    },
+    {
+      "source_type": "meeting",
+      "signals": {
+        "pressure_rhythm": [
+          "listen-first",
+          "teacher-feedback-early",
+          "monitor-feedback-mid",
+          "family-link-present"
+        ],
+        "long_form_pressure": true
+      }
+    },
+    {
+      "source_type": "manual-profile",
+      "signals": {
+        "high_confidence_hints": [
+          {
+            "phrase": "不会一上来",
+            "label": "first-round-soft"
+          },
+          {
+            "phrase": "先听你说",
+            "label": "listen-first"
+          },
+          {
+            "phrase": "慢慢收口",
+            "label": "progressive-pressure"
+          }
+        ],
+        "manual_impression_count": 4
+      }
+    },
+    {
+      "source_type": "annotation",
+      "signals": {
+        "document_strictness": "high",
+        "material_focus": [
+          "补材料",
+          "重新提交"
+        ]
+      }
+    }
+  ],
+  "rule_signals": [
+    {
+      "source_type": "notice",
+      "signals": {
+        "notice_markers": {
+          "必须": 1,
+          "不要": 2,
+          "不会": 1,
+          "提醒": 3,
+          "说明": 1,
+          "反馈": 1,
+          "学院": 1
+        },
+        "key_phrases": [
+          "我再强调一次",
+          "不要等",
+          "必须",
+          "后续不会只停留在口头提醒"
+        ]
+      }
+    },
+    {
+      "source_type": "annotation",
+      "signals": {
+        "approval_markers": {
+          "重写": 1,
+          "补材料": 1,
+          "不完整": 1,
+          "重新提交": 1,
+          "不予通过": 1
+        }
+      }
+    }
+  ],
+  "conflict_candidates": [
+    {
+      "source_type": "manual-profile",
+      "type": "manual-correction-candidate",
+      "items": [
+        "我们导员嘴上其实不凶，但特别会慢慢收口。",
+        "她不会一上来把话说死，一般会先听你说，再拿任课老师的反馈压你。"
+      ]
+    }
+  ],
+  "merge_summary": {
+    "has_manual_profile": true,
+    "has_meeting": true,
+    "has_policy": true,
+    "has_chat": true,
+    "has_notice": true,
+    "has_annotation": true
+  }
+}

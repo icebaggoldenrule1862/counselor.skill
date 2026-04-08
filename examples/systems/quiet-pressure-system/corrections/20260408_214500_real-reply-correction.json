@@ -1,0 +1,21 @@
+{
+  "summary": "周老师在临时请假或缺勤类 follow-up 里，会比之前预估更早检查任课老师是否已经先沟通过。她第一轮不仅卡时间线，也卡前置沟通动作，不喜欢学生等老师反馈上来之后再补报。",
+  "changes": {
+    "pressure_style": {
+      "teacher_contact_check_timing": "first-round",
+      "first_round_focus": [
+        "time-line",
+        "teacher-contact"
+      ]
+    },
+    "coordination_style": {
+      "teacher_feedback": "front-loaded-check",
+      "late_report_tolerance": "low"
+    }
+  },
+  "stable_constraints": [
+    "临时请假类 follow-up 默认先检查任课老师前置沟通",
+    "不要把 teacher-contact check 放到第二轮之后",
+    "遇到“老师已经找到我这里”的表达时，优先判断为被动补报风险"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "example-leave-request-001",
+  "scene_type": "leave-request",
+  "scene_label": "请假申请",
+  "created_at": "2026-04-07T23:10:00",
+  "updated_at": "2026-04-07T23:10:00",
+  "stage": "opening",
+  "status": "active",
+  "persona_slug": "quiet-pressure",
+  "student_profile": {
+    "display_name": "未命名学生",
+    "history_flags": [
+      "recent-late-requests"
+    ],
+    "recent_record": [
+      "上周有一次临时请假"
+    ]
+  },
+  "scores": {
+    "impression_score": 0,
+    "trust_level": 0,
+    "evidence_level": 2,
+    "risk_level": 1
+  },
+  "attitude": {
+    "current_read": "unknown",
+    "history": []
+  },
+  "known_info": [
+    "学生在当天临近上课前提出请假"
+  ],
+  "hidden_evidence": [
+    "下午课程存在随堂测验",
+    "学生近期有过一次临时请假"
+  ],
+  "redlines": [
+    "关键课程临时请假",
+    "重复使用模糊理由"
+  ],
+  "branch_notes": [
+    "若学生愿意补材料，可降档处理"
+  ],
+  "result": {
+    "tier": null,
+    "label": null,
+    "reasons": []
+  },
+  "next_actions": [
+    "确认请假理由",
+    "判断是否补充材料"
+  ]
+}
