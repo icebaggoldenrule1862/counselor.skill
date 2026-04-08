@@ -7,20 +7,20 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-brightgreen)](https://agentskills.io)
 
-For many students, the scary part is not sending the message.  
-It is what comes back after it:
+Many students know this feeling:
+the message is ready, the cursor is on the send button, and your head is already full of consequences.
 
-> “Come to my office.”
+This project is not here to hand out polished excuses.  
+It is closer to a counselor system you can rehearse with before real life gets heavy.
 
-This project tries to distill a counselor from notices, private chats, office talks, comments, and policy language into something you can actually rehearse with.  
-Not only how they speak, but how they pressure, delay, redirect, and close a conversation.
+You can feed it notices, private chats, office talks, comments, and policy language,  
+and let it slowly grow into someone who actually feels like a real counselor from your school.
 
-This is not a leave-request template pack.  
-And it is not just roleplay.
+Not a leave-request template pack.  
+Not just roleplay.  
+More like a place to practice how to open, respond, explain, and repair.
 
-It is closer to a counselor system for rehearsing real student communication.
-
-[中文](./README.md) · [Install](#install) · [Usage](#usage) · [Examples](#examples) · [Features](#features) · [Structure](#project-structure) · [Credits](#credits--inspirations)
+[中文](./README.md) · [Install](#install) · [Usage](#usage) · [Examples](#examples) · [Features](#features) · [Structure](#project-structure) · [Credits](#credits)
 
 ---
 
