@@ -203,7 +203,6 @@ counselor.skill/
 ├── references/
 ├── tools/
 ├── examples/
-├── docs/
 └── generated/
 ```
 

@@ -236,7 +236,6 @@ counselor.skill/
 │   ├── distillation/
 │   ├── import-kit/
 │   └── systems/
-├── docs/
 └── generated/
 ```
 
