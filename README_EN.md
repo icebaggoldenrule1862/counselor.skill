@@ -78,14 +78,6 @@ We only want one thing:
 
 ## Install
 
-Recommended public repository name:
-
-- `counselor.skill`
-
-Display name:
-
-- `辅导员.skill`
-
 ### Claude Code / Codex / OpenClaw
 
 Clone this repository into your local skills directory.
@@ -224,19 +216,11 @@ counselor.skill/
 
 ---
 
-## Credits & Inspirations
-
-This project’s structure, tone, and public presentation were heavily inspired by:
+## Credits
 
 - [therealXiaomanChu/ex-skill](https://github.com/therealXiaomanChu/ex-skill)
 - [UniversePeak/Supervisor.skill](https://github.com/UniversePeak/Supervisor.skill)
 - [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills)
-
-What I learned most from them:
-
-1. a homepage should feel usable before it feels technical
-2. a skill should be a system, not a pile of prompts
-3. a good skill needs function, but also voice, humor, and a point of view
 
 ---
 

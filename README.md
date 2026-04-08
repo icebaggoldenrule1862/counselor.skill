@@ -73,18 +73,6 @@
 
 ## 安装
 
-仓库建议名：
-
-- `辅导员.skill`
-- 或者更通用一点：`counselor.skill`
-
-如果你要发 GitHub，我更推荐：
-
-- 对外展示名：`辅导员.skill`
-- GitHub 仓库名：`counselor.skill` 或 `office-call-skill`
-
-这样兼顾中文辨识度和链接可用性。
-
 ### Claude Code / Codex / OpenClaw
 
 把本仓库 clone 到你的 skill 目录即可。
@@ -259,19 +247,11 @@ counselor.skill/
 
 ---
 
-## 致谢与灵感
-
-本项目在首页结构、叙事方式和技能表达上，重点学习并致敬以下开源项目：
+## 致谢
 
 - [therealXiaomanChu/ex-skill](https://github.com/therealXiaomanChu/ex-skill)
 - [UniversePeak/Supervisor.skill](https://github.com/UniversePeak/Supervisor.skill)
 - [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills)
-
-我从它们身上主要学到三件事：
-
-1. 首页不能只讲“有什么文件”，要先让人一眼感到“这东西真能用”
-2. Skill 不该只是 prompt 集合，而应该是会生成、会记忆、会纠偏、会进化的系统
-3. 一个好 Skill 除了功能，还要有气质，有一点幽默，也有一点对现实的理解
 
 ---
 
